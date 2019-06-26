@@ -1,0 +1,75 @@
+body {
+    background: #131313;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+  }
+
+  .padre1{
+      height: 50%;
+  }
+
+  .swiper-container {
+    width: 45%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -21rem;
+    margin-left: 42rem;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 380px;
+    background: rgb(31, 31, 31)
+  }
+
+  .swiper-pagination {
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+    position: relative;
+    margin-left: 38rem;
+  }
+
+  .details-slide{
+      margin-left: 1.5rem;
+  }
+
+  .Pimg{
+    margin-left: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    border-radius: 10rem;
+    font-weight: 200px;
+  }
+
+  .name{
+    font-size: 2rem;
+    position: absolute;
+    margin-left: 12.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .swiper-button-prev{
+    left: 39rem;
+    margin-top: -6rem;
+  }
+
+
+  .swiper-button-next{
+    right: 2rem;
+    margin-top: -6rem;
+  }
+
+  .moreinfo{
+    position: absolute;
+    margin-left: 12.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .s1{
+      color: red
+  }
