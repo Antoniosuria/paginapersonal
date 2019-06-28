@@ -1,8 +1,8 @@
 body {
-    background: #131313;
+    background: #161616;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    color:rgb(255, 255, 255);
+    color: #faebdc;
     margin: 0;
     height: 1000%;
     width: 100%;
@@ -17,6 +17,12 @@ body {
       height: 4rem;
   }
 
+  .principlInfo{
+    justify-content: center;
+    display: inline-grid;
+    align-items: center;
+  }
+
   .padre1{
       height: 50%;
   }
@@ -29,11 +35,20 @@ body {
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 300px;
-    height: 380px;
-    background: rgb(31, 31, 31)
+    width: 250px;
+    height: 300px;
+    background: #000000;
   }
 
+  .cimage{
+      width: 250px;
+      height: 250px;
+  }
+
+  .textCarousel{
+      font-size: 20px;
+  }
+  
   .swiper-pagination {
     transition: .3s opacity;
     transform: translate3d(0,0,0);
@@ -43,11 +58,12 @@ body {
   }
 
   .details-slide{
-      margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .Pimg{
-    margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 20rem;
@@ -58,7 +74,7 @@ body {
   .name{
     margin-top: 0rem;
     font-size: 2rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
   }
 
   .swiper-button-next {
@@ -93,17 +109,20 @@ body {
 }
 
   .moreinfo{
-    margin-left: 7.5rem;
+    margin-left: 4.6rem;
     font-size: 1.1rem;
   }
 
   .idiomas{
-    margin-left: 7.5rem;
+    margin-left: 4.6rem;
     font-size: 0.9rem;
   }
 
   .s1{
-      color: red
+      display: flex;
+      justify-content: center;
+      color: #cf484f;
+      font-size: 18px;
   }
 
   .s2{
@@ -117,7 +136,7 @@ body {
 
   .textEffcet {
     height: 76px;
-    background: #131313;
+    background: #161616;
     font-family: 'Inconsolata', monospace;
     display: flex;
     justify-content: center;
@@ -149,11 +168,14 @@ body {
   }
 
 .Pl{
-    background: #131313;
+    background: #161616;
 }
 
 .padre2{
     height: 30rem;
-    background: #131313;
+    background: #161616;
 }
 
+.imgBx{
+
+}
