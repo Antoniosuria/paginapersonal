@@ -36,13 +36,13 @@ body {
     background-position: center;
     background-size: cover;
     width: 250px;
-    height: 300px;
+    height: 330px;
     background: #000000;
   }
 
   .cimage{
       width: 250px;
-      height: 250px;
+      height: 275px;
   }
 
   .textCarousel{
@@ -83,6 +83,7 @@ body {
     cursor: unset;
     background-position: center;
     background-repeat: no-repeat;
+    margin-right: 7.8rem;
 }
 
   .swiper-button-next:hover{
@@ -101,6 +102,7 @@ body {
     background-size: 27px 44px;
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 7.8rem;
 }
 
 .swiper-button-prev:hover{
@@ -176,6 +178,10 @@ body {
     background: #161616;
 }
 
-.imgBx{
+@media all and (max-width: 1100px) {
+    .swiper-button-prev { display: none; }
+    }
 
-}
+@media all and (max-width: 1100px) {
+    .swiper-button-next { display: none; }
+    }
