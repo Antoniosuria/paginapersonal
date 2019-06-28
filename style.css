@@ -10,8 +10,7 @@ body {
   }
 
   .background1{
-    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/realistic-galaxy-milky-way-colorful-space-background_rlfmozgtll_thumbnail-full01.png);
-    height: 48rem;
+    /* background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/realistic-galaxy-milky-way-colorful-space-background_rlfmozgtll_thumbnail-full01.png); */
   }
 
   .navbar{
@@ -23,11 +22,9 @@ body {
   }
 
   .swiper-container {
-    width: 45%;
+    width: 81%;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-top: -23rem;
-    margin-left: 36rem;
   }
   .swiper-slide {
     background-position: center;
@@ -41,9 +38,8 @@ body {
     transition: .3s opacity;
     transform: translate3d(0,0,0);
     z-index: 10;
-    position: relative;
-    margin-left: 60rem;
-    margin-top: -2rem;
+    margin-left: 0rem;
+    margin-top: 0rem;
   }
 
   .details-slide{
@@ -51,38 +47,27 @@ body {
   }
 
   .Pimg{
-    margin-left: 10rem;
-    margin-top: 3rem;
-    margin-bottom: 0rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     border-radius: 20rem;
-    font-weight: 200px;
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
 
   .name{
+    margin-top: 0rem;
     font-size: 2rem;
-    position: absolute;
-    margin-left: 12.5rem;
-    margin-top: 0.5rem;
+    margin-left: 6rem;
   }
 
-
-  .swiper-button-next{
-    right: 13.8rem;
-    margin-top: -6rem;
+  .swiper-button-next {
     background-image: url(B.\ Flecha\ Derecha.png);
     position: absolute;
-    top: 50%;
-    width: 27px;
-    height: 44px;
-    margin-top: -2rem;
-    z-index: 10;
     cursor: unset;
-    background-size: 27px 44px;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
   .swiper-button-next:hover{
     outline: none;
@@ -90,13 +75,11 @@ body {
 }
 
   .swiper-button-prev {
-    left: 49.5rem;
     background-image: url(B.\ Flecha\ Izquierda.png);
     position: absolute;
     top: 50%;
     width: 27px;
     height: 44px;
-    margin-top: -2rem;
     z-index: 10;
     cursor: unset;
     background-size: 27px 44px;
@@ -110,17 +93,13 @@ body {
 }
 
   .moreinfo{
-    position: absolute;
-    margin-left: 12.5rem;
-    margin-top: 3rem;
-    font-size: 1.2rem;
+    margin-left: 7.5rem;
+    font-size: 1.1rem;
   }
 
   .idiomas{
-    position: absolute;
-    margin-left: 12.5rem;
-    margin-top: 5rem;
-    font-size: 1.2rem;
+    margin-left: 7.5rem;
+    font-size: 0.9rem;
   }
 
   .s1{
