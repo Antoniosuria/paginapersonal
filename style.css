@@ -35,10 +35,10 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 10px;
-  transition: 0.4s;
+  transition: 0.1s;
 }
 .show-menu-btn,.hide-menu-btn{
-  transition: 0.4s;
+  transition: 0.1s;
   font-size: 30px;
   cursor: pointer;
   display: none;
@@ -89,7 +89,7 @@ body {
     text-align: center;
     padding: 80px 0;
     line-height: normal;
-    transition: 0.7s;
+    transition: 0.3s;
     z-index: 4;
   }
   .menu a{
@@ -265,39 +265,40 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 2px 2px red;
 }
 
 .imgSkills{
-  height: 14rem;
-  margin-top: 2rem;
+  height: 10rem;
 }
 
 .imgSkills2{
-  height: 14rem;
-  margin-top: 2rem;
+  height: 10rem;
 }  
 
-.padre2{
-  height: 22rem;
+
+.padre2 {
+  height: 12rem;
   background: #161616;
   justify-content: center;
   align-items: center;
 }
 
-.tarjeta1{
-display: flex;
-justify-content: center;
-margin-bottom: 1rem;
+.tarjeta1 {
+  display: contents;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.tarjeta{
-position: relative;
-height: 18rem;
-width: 14rem;
-background: #161616;
-overflow: hidden;
+.tarjeta {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  background: #161616;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 input, .toggle{
@@ -359,9 +360,8 @@ padding: 1rem;
 .details .bookname{
 margin-bottom: 0%;
 color: #ffffff;
-margin-bottom: 14px;
+margin-bottom: 6px;
 font-size: 22px;
-margin-right: 1rem;
 display: flex;
 justify-content: center;
 text-shadow: 2px 2px black;
@@ -384,7 +384,14 @@ color: #E8E8E8;
   .hackEffect { display: none; }
   }
 
+@media all and (min-width: 1100px) {
+  .spaceInBlank { display: none; }
+  }
 
+  .spaceInBlank{
+    height: 10rem;
+    background:#161616;
+  }
 
 
   .middle{
