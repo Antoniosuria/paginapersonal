@@ -13,6 +13,56 @@ body {
   /* background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Hme4C4_7iosf3emf/realistic-galaxy-milky-way-colorful-space-background_rlfmozgtll_thumbnail-full01.png); */
 }
 
+.day-night{
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+
+}
+
+#input2{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+.check{
+  position: relative;
+  display: block;
+  background: #092c3e;
+  cursor: pointer;
+  height: 20px;
+  width: 62px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: -1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  transition: ease-in 0.5s;
+}
+#input2:checked ~ .check{
+  background: #f54949;
+  box-shadow: 0 0 0 5200px white; 
+}
+
+.check:before{
+  content: '';
+  position: absolute;
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+#input2:checked ~ .check:before{
+  transform: translateX(44px);
+  background: #fff;
+}
+
 .navbar{
   height: 4rem;
   background: #f54949;
@@ -21,6 +71,7 @@ body {
   display: flex;
   align-items: center;
   align-content: center;
+  z-index: 4;
 }
 .logo{
   text-transform: uppercase;
@@ -162,7 +213,7 @@ body {
   border: #f54949 solid 10px;
 }
 
-.name{
+#name{
   margin-top: 0rem;
   font-size: 2rem;
   margin-left: 3rem;
@@ -201,12 +252,12 @@ body {
   border: none;
 }
 
-.moreinfo{
+#moreinfo{
   margin-left: 4.6rem;
   font-size: 1.1rem;
 }
 
-.idiomas{
+#idiomas{
   margin-left: 4.6rem;
   font-size: 0.9rem;
 }
@@ -261,12 +312,21 @@ body {
   background: #161616;
 }
 
-.txtSkills{
+#txt{
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 2px #59c0cf;
+}
+
+#txt2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-shadow: 2px 2px #59c0cf;
+
 }
 
 .imgSkills{
@@ -295,7 +355,6 @@ body {
   position: relative;
   height: 10rem;
   width: 10rem;
-  background: #161616;
   overflow: hidden;
   margin-left: 1rem;
   margin-bottom: 1rem;
@@ -467,9 +526,9 @@ color: #E8E8E8;
 
 
 
-.moreinfo2{
+#moreinfo2{
   font-size: 1.0rem;
-  padding: 5rem;
+  padding: 3rem;
   padding-top: 2rem;
 }
 
