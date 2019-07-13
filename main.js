@@ -1,8 +1,20 @@
-var quotes=[
-    "La vida tiende a ser positiva si se lo permites. ", "Esperar duele, pero recoger los frutos de tu siembra es un gozo. ", "La clave del éxito reside en las decisiones. ", "Cualquier sueño es plausible si eres lo suficientemente tenaz como para luchar por él. ", "Si está en tu mente, puedes convertirlo en real. ", "Si la vida te da limones, haz limonada. ", "La paz interior surge cuando uno aprende a amarse a sí mismo. ", "Inténtalo de nuevo, inténtalo mejor. Fracasa de nuevo, fracasa mejor. ", "Gracias a todos los que no me ayudaron. Hoy me siento satisfecho de haber logrado las cosas por mí mismo. ", "El día puede ser bueno o malo, eso depende de tu conducta. "
-];
+let imgTrack = '0'
 
-function newQuote(){
-   var randomNumber = Math.floor(Math.random() * (quotes.length));
-    document.getElementById('quoteDisplay').innerHTML=quotes[randomNumber];
+function change() {
+    let image = document.getElementById('Pimg2');
+
+    if (imgTrack == '0'){
+    image.src = 'architecture-background-buildings-218983.jpg';
+    imgTrack = '1'
+    } else if (imgTrack == '1'){
+    image.src = 'background-calm-clouds-747964.jpg';
+    imgTrack = '2'
+    } else if (imgTrack == '2'){
+        image.src = 'aroma-background-black-1415555.jpg';
+        imgTrack = '3'
+    } else if (imgTrack == '3'){
+        image.src = 'africa-angry-animal-1106452.jpg'
+        imgTrack = 0
+    }
 }
+
